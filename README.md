@@ -22,20 +22,14 @@ Add your own screenshots to `assets/screenshots/` and then uncomment the relevan
 
 ### App overview
 
-> 📸 **Add screenshot:** The app landing page showing the Image/Video selector and confidence control. Suggested file: `assets/screenshots/app_overview.png`.
-
 ![Streamlit application overview](assets/app_overview.png)
 
 ### Image detection
-
-> 📸 **Add screenshot:** A side-by-side view of an original leaf photograph and its annotated output, preferably with disease labels and confidence scores visible. Suggested file: `assets/screenshots/image_detection.png`.
 
 ![Original image and YOLOv8 detection](assets/image_detection.png)
 
 
 ### Model training and analysis
-
-> 📈 **Optional figures:** Add the YOLOv8 training curves and **validation** confusion matrix used during model development. Suggested files: `assets/figures/training_curves.png` and `assets/figures/confusion_matrix_normalized.png`.
 
 ![Training and validation curves](assets/training_curves.png)
 ![Normalized validation confusion matrix](assets/confusion_matrix.png)
@@ -84,8 +78,6 @@ Data preparation included:
 | Test | 236 | Held-out evaluation |
 
 The test split contains **452 annotated objects**. These counts describe the processed dataset after cleaning; they should not be confused with raw PlantDoc download counts. A single image can contain multiple annotated objects.
-
-> **Dataset availability:** The raw PlantDoc images and cleaned YOLO labels are not currently included in this deployment-focused GitHub repository. The preprocessing and training were performed locally. See the linked dataset and the training commands below for the expected workflow.
 
 ## 🏋️ Training
 
